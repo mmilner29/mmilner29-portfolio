@@ -1,4 +1,5 @@
 // import React, { useState } from 'react';
+import React from 'react';
 import Nav from './components/Nav';
 import About from './components/About'
 import './App.css';

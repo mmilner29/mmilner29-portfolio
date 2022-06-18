@@ -1,38 +1,135 @@
-.App {
-  text-align: center;
+ /*Import google fonts!*/
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Sulphur+Point:wght@300;400;700&display=swap');
+
+ /*Assigns variables for reusable colors*/
+:root {
+  --primary-color: #D4E3CA;
+  --secondary-color: #86937D  ;
+  --tertiary-color: #30362C;
+  --quaternary-color: #586053;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  color: var(--quaternary-color);
+  /*Assigns a font and a back-up font if the first isn't supported by the browser*/
+  font-family: "Sulphur Point:wght@400", sans-serif;
+  background-color: var(--primary-color);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+header {
+  padding: 20px 35px;
+  /* Allows for header elements to appear side by side & wrap around as the screen size shrinks */
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap-reverse;
+  /*Justifies header sections to the left & right side of the page*/
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+header a {
+  /*Removes default styling for links*/
+  text-decoration: none;
+  color: var(--quaternary-color);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+header a {
+  /*Removes default styling for links*/
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: lighter;
+  color: var(--tertiary-color);
+}
+
+
+header h1 {
+  /*Makes text bold*/
+  font-family: "Monoton";
+  font-size: 50px;
+  color: var(--quaternary-color);
+}
+
+/* Remove default list styling*/
+header nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header nav ul li {
+  text-align: center;
+  font-weight: bold;
+}
+
+.bio-section {
+  /*Flex-wrap is allowing the bio-text to wrap around under the bio-img*/
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding: 20px;
+  margin: 20px 30px 30px 30px;
+  background-color: var(--primary-color);
+}
+
+/* Width of img will take up 80% of space*/
+.bio-section img {
+  max-width: 80%;
+  box-shadow: 2px 2px 3px #586053;
+}
+
+.bio-text {
+  /*Center aligns the Bio text section*/
+  text-align: left;
+  padding: 10px;
+}
+
+.bio-text h2 {
+  padding: 14px 7px;
+  font-size: 40px;
+  color: var(--tertiary-color);
+
+}
+
+.bio-text p {
+  padding: 7px;
+}
+
+/* Media Queries to adjust for smaller screens*/
+
+@media only screen and (max-width: 980px) {
+  .bio-section img {
+      max-width: 80%;
+      padding: 10px
   }
-  to {
-    transform: rotate(360deg);
+
+  .bio-text h2 {
+      font-size: 30px;
   }
+
+}
+@media only screen and (max-width: 768px) {
+  header nav ul {
+      list-style: none;
+      display: block;
+  }
+
+  .bio-section {
+      flex-wrap: wrap;
+  }
+
+  .bio-section img {
+      max-width: 100%;
+      padding: 0;
+  }
+
+  .bio-text {
+      text-align: center;
+  }
+
 }

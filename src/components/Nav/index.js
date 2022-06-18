@@ -1,13 +1,37 @@
 import React from "react";
 
 function Nav() {
-    <header>
-        <h2>
+    return (
+        <header>
+        <h1>
             <a href="/">
                 Madi Milner
             </a>
-        </h2>
+        </h1>
+        <nav>
+            <ul>
+                <li>
+                    About Me
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    Portfolio
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    Contact
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    Resume
+                </li>
+            </ul>
+        </nav>
     </header>
+    )
 }
 
 export default Nav;

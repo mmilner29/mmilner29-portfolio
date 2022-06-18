@@ -2,9 +2,12 @@ import React from 'react';
 
 function About() {
   return (
-    <section>
-      <h1 id="about">Nice to Meet You!</h1>
-      <img src={require("../../assets/pic-of-madi.jpg")} alt="Madi by some flowers"></img>
+    <section class="bio-section">
+      <div class="bio-img">
+        <img src={require("../../assets/pic-of-madi.jpg")} alt="Madi by some flowers"></img>
+      </div>
+      <div>
+      <h1 id="about">Nice to Meet You!</h1><br></br>
       <p>
         My name is Madi and I'm a graduate from the University of South Dakota with a B.S. degree in Chemistry 
         and minors in Math and Education. A couple years have passed since then, and now I'm a new graduate from the University 
@@ -19,6 +22,7 @@ function About() {
          weeks upon weeks of arguably the busiest and best time of my life, I've learned so much, connected with so many 
          new and seasoned developers, and it's safe to say I found what I've been looking for.
         </p>
+        </div>
     </section>
   );
 }
