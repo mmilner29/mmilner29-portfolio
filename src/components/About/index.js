@@ -2,12 +2,12 @@ import React from 'react';
 
 function About() {
   return (
-    <section class="bio-section">
-      <div class="bio-img">
+    <section className="bio-section">
+      <div className="bio-img">
         <img src={require("../../assets/pic-of-madi.jpg")} alt="Madi by some flowers"></img>
       </div>
-      <div>
-      <h1 id="about">Nice to Meet You!</h1><br></br>
+      <div className="bio-text">
+      <h2 id="about">Nice to Meet You!</h2><br></br>
       <p>
         My name is Madi and I'm a graduate from the University of South Dakota with a B.S. degree in Chemistry 
         and minors in Math and Education. A couple years have passed since then, and now I'm a new graduate from the University 

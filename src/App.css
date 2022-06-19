@@ -47,11 +47,18 @@ header a {
   color: var(--tertiary-color);
 }
 
+header span {
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: lighter;
+  color: var(--tertiary-color);
+}
 
 header h1 {
   /*Makes text bold*/
   font-family: "Monoton";
-  font-size: 50px;
+  font-size: 80px;
   color: var(--quaternary-color);
 }
 
@@ -73,7 +80,7 @@ header nav ul li {
   flex-wrap: nowrap;
   align-items: center;
   padding: 20px;
-  margin: 20px 30px 30px 30px;
+  margin: 0px 30px 30px 30px;
   background-color: var(--primary-color);
 }
 
@@ -83,29 +90,19 @@ header nav ul li {
   box-shadow: 2px 2px 3px #586053;
 }
 
-.bio-text {
-  /*Center aligns the Bio text section*/
-  text-align: left;
-  padding: 10px;
-}
-
 .bio-text h2 {
-  padding: 14px 7px;
-  font-size: 40px;
+  font-size: 50px;
   color: var(--tertiary-color);
 
 }
 
-.bio-text p {
-  padding: 7px;
-}
 
 /* Media Queries to adjust for smaller screens*/
 
 @media only screen and (max-width: 980px) {
   .bio-section img {
       max-width: 80%;
-      padding: 10px
+      /* padding: 10px */
   }
 
   .bio-text h2 {
