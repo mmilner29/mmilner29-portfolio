@@ -47,12 +47,22 @@ header a {
   color: var(--tertiary-color);
 }
 
+header a:hover {
+  color: #DF3B57;
+}
+
+
 header span {
   text-decoration: none;
   padding: 10px;
   border-radius: 5px;
   font-weight: lighter;
   color: var(--tertiary-color);
+}
+
+header span:hover {
+  border: 2px solid #DF3B57;
+  cursor:pointer;
 }
 
 header h1 {
@@ -87,7 +97,14 @@ header nav ul li {
 /* Width of img will take up 80% of space*/
 .bio-section img {
   max-width: 80%;
-  box-shadow: 2px 2px 3px #586053;
+  padding: 2px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border: 10px solid #ef8354
+}
+
+.bio-section img:hover {
+  border: 10px solid #ee4b6a;
 }
 
 .bio-text h2 {
@@ -103,7 +120,6 @@ header nav ul li {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: var(--primary-color);
 }
 
 .project-section h2 {
@@ -179,6 +195,52 @@ header nav ul li {
 .project article img:hover {
   /*Make image slightly transparent when you hover over*/
   opacity: 100%;
+}
+
+.contact {
+  width: 350px;
+  height: 350px;
+  margin: 40px;
+  padding: 50px;
+  border-radius: 50%;
+  background-color: #ee4b6a;
+  color:floralwhite;
+  font-family: "Sulphur Point";
+  text-align: center;
+}
+
+.contact li {
+  text-decoration: none;
+  list-style: none;
+  margin: 10px;
+}
+
+.contact a {
+  color: floralwhite;
+}
+
+.resume {
+  width: 350px;
+  height: 350px;
+  margin: 40px 0px 20px 200px;
+  padding: 50px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  background-color: #ef8354;
+  color:floralwhite;
+  font-family: "Sulphur Point";
+  text-align: center;
+
+}
+
+.resume li {
+  text-decoration: none;
+  list-style: none;
+  margin: 10px;
+}
+
+.resume a {
+  color: floralwhite;
 }
 
 /* Media Queries to adjust for smaller screens*/
