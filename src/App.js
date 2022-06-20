@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Nav from './components/Nav';
 //import About from './components/About';
 import Project from './components/Project';
+import Social from './components/Social';
 import './App.css';
 
 function App() {
@@ -26,6 +27,9 @@ function App() {
     <main>
       <Project currentCategory={ currentCategory}></Project>
     </main>
+    <footer>
+      <Social></Social>
+    </footer>
     </div>
   );
 }

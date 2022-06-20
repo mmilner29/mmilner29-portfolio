@@ -15,11 +15,11 @@ function Nav(props) {
 
     return (
         <header>
-        <h1>
-            <a href="/">
-                Madi Milner
-            </a>
-        </h1>
+            <h1>
+                <a href="/">
+                    Madi Milner
+                </a>
+            </h1>
         <nav>
             <ul>
             {navCategories.map((category) => (

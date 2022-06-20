@@ -22,7 +22,7 @@ function Resume () {
                         CSS
                     </li>
                 </ul>
-                <h3>See more on my resume <a href="../../assets/resume.pdf" download="mmilner-resume">here!</a></h3>
+                <h3>See more on my resume: <a href="../../assets/resume.pdf" download="mmilner-resume">here!</a></h3>
             </div>
                 
         </section>

@@ -26,7 +26,7 @@ header {
   padding: 20px 35px;
   /* Allows for header elements to appear side by side & wrap around as the screen size shrinks */
   display: flex;
-  flex-wrap: wrap-reverse;
+  flex-wrap: nowrap;
   /*Justifies header sections to the left & right side of the page*/
   justify-content: space-between;
   align-items: center;
@@ -209,6 +209,10 @@ header nav ul li {
   text-align: center;
 }
 
+.contact:hover {
+  background-color:  #DF3B57;
+}
+
 .contact li {
   text-decoration: none;
   list-style: none;
@@ -233,6 +237,10 @@ header nav ul li {
 
 }
 
+.resume:hover {
+  background-color: #DF3B57;
+}
+
 .resume li {
   text-decoration: none;
   list-style: none;
@@ -243,9 +251,30 @@ header nav ul li {
   color: floralwhite;
 }
 
+footer {
+  display: flex;
+  justify-content: flex-end;
+}
+.social ul {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.social li {
+  list-style: none;
+  margin: 10px;
+}
+
+
 /* Media Queries to adjust for smaller screens*/
 
 @media only screen and (max-width: 980px) {
+
+  header {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
   .bio-section img {
       max-width: 80%;
       /* padding: 10px */
@@ -264,13 +293,14 @@ header nav ul li {
     max-width: 60%;
   }
 
+  footer {
+    justify-content: center;
+  }
+
 
 }
 @media only screen and (max-width: 768px) {
-  header nav ul {
-      list-style: none;
-      display: block;
-  }
+
 
   .bio-section {
       flex-wrap: wrap;
