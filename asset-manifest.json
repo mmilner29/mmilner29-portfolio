@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/mmilner29-portfolio/static/css/main.22e7bce4.css",
+    "main.js": "/mmilner29-portfolio/static/js/main.e1e5f932.js",
+    "static/js/787.f8748ef5.chunk.js": "/mmilner29-portfolio/static/js/787.f8748ef5.chunk.js",
+    "static/media/recipe-hub.png": "/mmilner29-portfolio/static/media/recipe-hub.06f0e730aaec31cacde1.png",
+    "static/media/run-buddy.png": "/mmilner29-portfolio/static/media/run-buddy.39951ce0993d87f2895f.png",
+    "static/media/pic-of-madi.jpg": "/mmilner29-portfolio/static/media/pic-of-madi.72eb938cfe67f41bb7cd.jpg",
+    "static/media/web-dev-social.png": "/mmilner29-portfolio/static/media/web-dev-social.c53d353439100f28aadb.png",
+    "static/media/taskmaster-pro.png": "/mmilner29-portfolio/static/media/taskmaster-pro.07d9cb3a7fb033c73ccc.png",
+    "index.html": "/mmilner29-portfolio/index.html",
+    "main.22e7bce4.css.map": "/mmilner29-portfolio/static/css/main.22e7bce4.css.map",
+    "main.e1e5f932.js.map": "/mmilner29-portfolio/static/js/main.e1e5f932.js.map",
+    "787.f8748ef5.chunk.js.map": "/mmilner29-portfolio/static/js/787.f8748ef5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.22e7bce4.css",
+    "static/js/main.e1e5f932.js"
+  ]
+}
