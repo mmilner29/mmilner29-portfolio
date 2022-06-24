@@ -14,7 +14,7 @@ function About() {
         of Arizona's coding bootcamp for Full-Stack Web Development! 
         <br></br> 
         <br></br>
-        You might be wondering... why web development? 
+        <span id="why">You might be wondering... why web development?</span>
         <br></br> 
         <br></br>
         I've always loved learning and taking on new challenges-but it has taken me a little longer to find a career 

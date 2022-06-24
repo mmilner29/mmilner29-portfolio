@@ -16,7 +16,7 @@ function Nav(props) {
     return (
         <header>
             <h1>
-                <a href="/">
+                <a href="/mmilner29-portfolio">
                     Madi Milner
                 </a>
             </h1>
