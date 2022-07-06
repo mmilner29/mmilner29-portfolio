@@ -5,6 +5,13 @@ function Portfolio () {
         <section className="project-section">
             <div className="project">
                 <article className="proj">
+                    <h3 className="proj-centered" id="white">Lucky-Duck</h3>
+                    
+                    <a href="https://github.com/CarlBush/Lucky-Duck" target="_blank" id="img1" rel="noreferrer"><img src={require("../../assets/lucky-duck.png")} alt="Lucky-Duck Home Page" ></img></a>
+                </article>
+            </div>
+            <div className="project">
+                <article className="proj">
                     <h3 className="proj-centered">Web-Dev-Social</h3>
                     
                     <a href="https://github.com/Boris-Veselov/web-dev-social" target="_blank" id="img1" rel="noreferrer"><img src={require("../../assets/web-dev-social.png")} alt="Web-Dev-Social Home Page" ></img></a>

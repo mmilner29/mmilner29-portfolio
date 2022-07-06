@@ -17,11 +17,13 @@
   box-sizing: border-box;
 }
 
+html,
 body {
   color: var(--quaternary-color);
   /*Assigns a font and a back-up font if the first isn't supported by the browser*/
   font-family: "Sulphur Point:wght@400", sans-serif;
   background-color: var(--primary-color);
+  min-height: 100vh;
 }
 
 header {
@@ -257,13 +259,21 @@ header nav ul li {
   color: var(--quinary-color);
 }
 
-footer {
-  display: flex;
-  justify-content: flex-end;
+/* footer {
+  position: relative;
+
+} */
+
+.social div {
+  position:relative;
+  left:0;
+  bottom:0;
+  right:0;
 }
 .social ul {
   display: flex;
   flex-wrap: nowrap;
+  float: right;
 }
 
 .social li {
@@ -303,9 +313,9 @@ footer {
     max-width: 80%;
   }
 
-  footer {
-    justify-content: center;
-  }
+  /* footer {
+    float: ;
+  } */
 
 
 }
