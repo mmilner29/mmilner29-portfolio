@@ -8,7 +8,7 @@ body {
   align-items: center;
 }
 .modal {
-  width: 500px;
+  width: 50%;
   background: floralwhite;
   border: 6px double #ef8354;
   transition: 1.1s ease-out;
@@ -92,7 +92,7 @@ body {
 
 @media only screen and (max-width: 768px) {
     .modal {
-        width: 450px;
+        width: 80%;
         font-size: 12px;
     }
 
