@@ -9,7 +9,7 @@ function Contact () {
                 </h2>
                 <ul>
                     <li>
-                        Send me an <a href="mailto:madisonm4514@gmail.com?subject=Nice To Meet You!">Email!</a>
+                        Send me an Email! <a href="mailto:madisonm4514@gmail.com?subject=Nice To Meet You!"> madisonm4514@gmail</a>
                     </li>
 
                     <li>

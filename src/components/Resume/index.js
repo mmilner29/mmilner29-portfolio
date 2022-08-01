@@ -13,7 +13,7 @@ function Resume () {
                         SQL
                     </li>
                     <li>
-                        NoSQL
+                        Responsive Web-Design
                     </li>
                     <li>
                         Object Oriented Programming

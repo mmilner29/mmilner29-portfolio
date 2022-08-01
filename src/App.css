@@ -211,6 +211,13 @@ header nav ul li {
   cursor:pointer;
 }
 
+.modal-div {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content:space-around;
+}
+
+
 .contact {
   width: 350px;
   height: 350px;

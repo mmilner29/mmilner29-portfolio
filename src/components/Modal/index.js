@@ -9,10 +9,9 @@ export default class Modal extends React.Component {
     render() {
         if(!this.props.show){
             return null;
-        }
+    }
         return (
             <div class="modal" id="modal">
-            <h2>Check it out!</h2>
             <div class="content">{this.props.children}</div>
             <div class="actions">
               <button class="toggle-button" onClick={this.onClose}>

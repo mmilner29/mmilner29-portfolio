@@ -3,7 +3,7 @@ body {
 }
 body {
   background: #eee;
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   align-items: center;
 }
@@ -15,7 +15,7 @@ body {
   box-shadow: -1rem 1rem 1rem rgba(0, 0, 0, 0.2);
   filter: blur(0);
   transform: scale(1);
-  opacity: 1;
+  opacity: 0;
   position: absolute;
   visibility: visible;
 }
@@ -38,15 +38,19 @@ body {
     offset-path: none;
   }
 }
-.modal h2 {
-  border-bottom: 4px double #ef8354;
+
+.modal:hover{
+    opacity: 1;
+}
+.modal p {
+  border-top: 4px double #ef8354;
   padding: 1rem;
   margin-top: 10px;
   color: #30362C;
 }
-.modal .content {
+/* .modal .content {
   padding: 1rem;
-}
+} */
 .modal .actions {
   background: floralwhite;
   padding: 0.5rem 1rem;
@@ -70,14 +74,30 @@ body {
     text-decoration: none;
     color:#30362C;
     font-weight: bold;
+    padding-top: 1rem;
 }
 
 .modal a:hover {
     text-decoration: none;
-    border: 2px solid #DF3B57;
     color:#ee4b6a;
     font-weight: bold;
 }
+
+.modal p {
+    padding: 1rem;
+}
 #centered-toggle-button {
   position: absolute;
+}
+
+@media only screen and (max-width: 768px) {
+    .modal {
+        width: 450px;
+        font-size: 12px;
+    }
+
+    .modal p {
+        padding: 5px;
+        margin: 0;
+    }
 }
