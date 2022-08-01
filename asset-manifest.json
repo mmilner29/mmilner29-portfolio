@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/mmilner29-portfolio/static/css/main.1e6b07af.css",
+    "main.css": "/mmilner29-portfolio/static/css/main.9d95c643.css",
     "main.js": "/mmilner29-portfolio/static/js/main.137f2f6a.js",
     "static/js/787.f8748ef5.chunk.js": "/mmilner29-portfolio/static/js/787.f8748ef5.chunk.js",
     "static/media/recipe-hub.png": "/mmilner29-portfolio/static/media/recipe-hub.06f0e730aaec31cacde1.png",
@@ -9,12 +9,12 @@
     "static/media/web-dev-social.png": "/mmilner29-portfolio/static/media/web-dev-social.c53d353439100f28aadb.png",
     "static/media/taskmaster-pro.png": "/mmilner29-portfolio/static/media/taskmaster-pro.07d9cb3a7fb033c73ccc.png",
     "index.html": "/mmilner29-portfolio/index.html",
-    "main.1e6b07af.css.map": "/mmilner29-portfolio/static/css/main.1e6b07af.css.map",
+    "main.9d95c643.css.map": "/mmilner29-portfolio/static/css/main.9d95c643.css.map",
     "main.137f2f6a.js.map": "/mmilner29-portfolio/static/js/main.137f2f6a.js.map",
     "787.f8748ef5.chunk.js.map": "/mmilner29-portfolio/static/js/787.f8748ef5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e6b07af.css",
+    "static/css/main.9d95c643.css",
     "static/js/main.137f2f6a.js"
   ]
 }
